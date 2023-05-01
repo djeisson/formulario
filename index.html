@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="all">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/youemail@example" method="POST">
+        <h1 class="h1">Fomulario de cadastro de clientes</h1>
+        <span>Nome</span>
+        <input type="text" name="Nome" id="nome" placeholder="Nome" required>
+        <span>Email</span>
+        <input type="email" id="email" placeholder="Email" name="Email" required>
+        <span>Endereço</span>
+        <input type="text" name="Endereço" id="endereco" placeholder="Rua, Bairro,numero" >
+        <span>Data nascimento</span>
+        <input type="date" id="nascimento" name="data-nascimento" placeholder="" >
+        <span>Telefone</span>
+        <input type="tel" id="telefone" placeholder="" name="numero-telefone" required>
+        <span>Esse número é de whatsapp</span>
+        <input type="checkbox" id="checkbox" placeholder="" >
+        <button type="submit">Enviar</button>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden">
+        <input type="hidden" name="_next" value="yourHttps">
+
+        
+    </form>
+</body>
+</html>
